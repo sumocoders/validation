@@ -1,0 +1,27 @@
+{
+    "name": "sumocoders/validation",
+    "description": "Simple PHP validation library",
+    "type": "library",
+    "homepage": "https://github.com/sumocoders/validation",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Toon Daelman",
+            "email": "toon@sumocoders.be",
+            "homepage": "https://turanct.wordpress.com",
+            "role": "Developer"
+        }
+    ],
+    "require-dev": {
+        "phpspec/phpspec": "2.0.*@dev"
+    },
+    "config": {
+        "bin-dir": "bin"
+    },
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-0": {
+            "SumoCoders": "src"
+        }
+    }
+}
