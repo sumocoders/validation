@@ -46,7 +46,7 @@ $ibanValidator = new SumoCoders\Validation\IbanValidator();
 $validIbanFormat = $ibanValidator->sanitize($input);
 
 // Validate iban code:
-if ($ibanValidator->validate($input)) {
+if ($ibanValidator->validate($validIbanFormat)) {
     // It's a valid iban code!
 }
 ```
