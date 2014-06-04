@@ -24,6 +24,16 @@ Getting started
 
 #### 1. Install this package in your project using composer
 
+in your `composer.json` file:
+
+```json
+{
+    "require": {
+        "sumocoders/validation": "v0.1"
+    }
+}
+```
+
 #### 2. Require the composer autoloader in your project
 
 ```php
