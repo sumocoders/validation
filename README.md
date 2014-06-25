@@ -9,6 +9,7 @@ Validators
 
 - IBAN
 - VAT
+- Telephone numbers (currently only BE fixed and mobile numbers)
 
 
 Getting started
