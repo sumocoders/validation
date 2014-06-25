@@ -1,9 +1,10 @@
 {
     "_readme": [
         "This file locks the dependencies of your project to a known state",
-        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file"
+        "Read more about it at http://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
     ],
-    "hash": "03d05c2d7dba1c919779860fa7c51606",
+    "hash": "13f35dbd14c4775430d243b746d2be6d",
     "packages": [
 
     ],
@@ -169,12 +170,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpspec/prophecy.git",
-                "reference": "31fa1e763382e4de535ed8b136d809690af3d268"
+                "reference": "c9a80f8c324df415fea36ab1148a44ed6b456210"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/31fa1e763382e4de535ed8b136d809690af3d268",
-                "reference": "31fa1e763382e4de535ed8b136d809690af3d268",
+                "url": "https://api.github.com/repos/phpspec/prophecy/zipball/c9a80f8c324df415fea36ab1148a44ed6b456210",
+                "reference": "c9a80f8c324df415fea36ab1148a44ed6b456210",
                 "shasum": ""
             },
             "require": {
@@ -219,7 +220,7 @@
                 "spy",
                 "stub"
             ],
-            "time": "2014-04-03 06:31:14"
+            "time": "2014-06-14 19:28:44"
         },
         {
             "name": "symfony/console",
@@ -228,12 +229,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Console.git",
-                "reference": "402f7d86b1073498812cfa5466132aa190183575"
+                "reference": "9a491e7983209bf320d40917291c03e856eee947"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Console/zipball/402f7d86b1073498812cfa5466132aa190183575",
-                "reference": "402f7d86b1073498812cfa5466132aa190183575",
+                "url": "https://api.github.com/repos/symfony/Console/zipball/9a491e7983209bf320d40917291c03e856eee947",
+                "reference": "9a491e7983209bf320d40917291c03e856eee947",
                 "shasum": ""
             },
             "require": {
@@ -241,11 +242,13 @@
             },
             "require-dev": {
                 "psr/log": "~1.0",
-                "symfony/event-dispatcher": "~2.1"
+                "symfony/event-dispatcher": "~2.1",
+                "symfony/process": "~2.1"
             },
             "suggest": {
                 "psr/log": "For using the console logger",
-                "symfony/event-dispatcher": ""
+                "symfony/event-dispatcher": "",
+                "symfony/process": ""
             },
             "type": "library",
             "extra": {
@@ -276,7 +279,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "http://symfony.com",
-            "time": "2014-05-23 14:36:49"
+            "time": "2014-06-20 17:41:51"
         },
         {
             "name": "symfony/event-dispatcher",
@@ -393,12 +396,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/Yaml.git",
-                "reference": "d151f00d4fae107ea0d70ade6b0d2d3e81f45ecd"
+                "reference": "b01d366060f33e18fd98b0008c41a01b0d25c95c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/Yaml/zipball/d151f00d4fae107ea0d70ade6b0d2d3e81f45ecd",
-                "reference": "d151f00d4fae107ea0d70ade6b0d2d3e81f45ecd",
+                "url": "https://api.github.com/repos/symfony/Yaml/zipball/b01d366060f33e18fd98b0008c41a01b0d25c95c",
+                "reference": "b01d366060f33e18fd98b0008c41a01b0d25c95c",
                 "shasum": ""
             },
             "require": {
@@ -433,7 +436,7 @@
             ],
             "description": "Symfony Yaml Component",
             "homepage": "http://symfony.com",
-            "time": "2014-05-23 14:36:49"
+            "time": "2014-06-04 06:43:44"
         }
     ],
     "aliases": [
