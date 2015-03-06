@@ -1,6 +1,8 @@
 SumoCoders Validation Library
 ========================================
 
+[![Travis CI](https://api.travis-ci.org/sumocoders/validation.svg?branch=master)](https://travis-ci.org/sumocoders/validation)
+
 A simple validation library for e.g.: IBAN and VAT numbers
 
 
