@@ -32,7 +32,7 @@ in your `composer.json` file:
 ```json
 {
     "require": {
-        "sumocoders/validation": "v0.2"
+        "sumocoders/validation": "0.3.0"
     }
 }
 ```
